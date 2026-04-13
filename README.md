@@ -1,1 +1,1 @@
-# zemta-docs
+# docs
