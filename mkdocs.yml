@@ -1,0 +1,51 @@
+site_name: zemta
+
+nav:
+  - HOME: index.md
+  - MARKDOWN: Markdown_Enhancements.md
+  - MERMAID: mermaid.md
+  - LIST: list.md
+  - IMAGE: image.md
+  - TABLE: table.md
+  - NAVIGATE:
+      - NESTEDSIDEBAR: nestedSideBar.md
+      - TABLE: table.md
+  - Tutorials: tutorials.md
+  - chart: flowchart.md
+
+
+
+theme:
+  name: readthedocs
+  features:
+    - navigation.top
+
+plugins:
+  - search
+
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - tables
+  - pymdownx.highlight:
+      linenums: true
+  - admonition
+  - pymdownx.tasklist:
+      clickable_checkbox: true
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.inlinehilite
+  - pymdownx.details  
+
+
+extra_javascript:
+  - https://unpkg.com/mermaid@10/dist/mermaid.min.js
+  - js/mermaid-init.js
+
+extra_css:
+  - css/sidebar.css
+
+extra:
+  version:
+    provider: mike

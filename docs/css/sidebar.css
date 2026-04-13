@@ -1,0 +1,22 @@
+.md-header {
+    background-color: #17a14c; /* custom color for top navbar */
+}
+
+
+
+.md-nav__link {
+  cursor: pointer;
+}
+
+
+.md-sidebar--primary {
+  transition: transform 0.25s ease;
+  background-color: rgb(184, 251, 203);
+}
+
+/* Optional: prevent sticky open feeling */
+.md-nav__item--active > .md-nav__link {
+  font-weight: 600;
+  color: #17a14c;
+}
+
